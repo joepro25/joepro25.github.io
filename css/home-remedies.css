@@ -1,0 +1,42 @@
+.navbar {
+    background-color: rgb(56, 90, 202);
+}
+
+.footer {
+    background-color: red;
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center; */
+}
+.footer-info {
+    color: black;
+}
+
+.footer-nav a {
+    color: lightgray;
+}
+
+.footer-nav a:hover {
+    color: rgb(23, 72, 150);
+    text-decoration: none;
+}
+
+.contact a {
+    color: gray;
+}
+
+.contact a:hover {
+    color: rgb(23, 72, 150);
+    text-decoration: none;
+}
+
+.footer-contact a {
+    color: lightgray;
+}
+
+.footer-contact a:hover {
+    color: rgb(23, 72, 150);
+    text-decoration: none;
+}

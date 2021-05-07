@@ -15,13 +15,13 @@
         <link rel="manifest" href="/site.webmanifest">
 
     </head>
-    <body>
+    <body style="min-height: 75rem; padding-top: 4.5rem;">
         <header>
-            <div class="dg-dark collapse" id="navbarHeader">
+            <!-- <div class="dg-dark collapse" id="navbarHeader">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-8 col-md-7 py-4">
-                            <h4 class="test-white">About</h4>
+                            <h4 class="text-white">About</h4>
                             <p class="text-muted">
                                 Test about me. Test about me. Test about me. Test about me. Test about me. Test about me. Test about me. Test about me. Test about me.
                                 Test about me. Test about me. Test about me. Test about me. Test about me. Test about me. Test about me. Test about me. Test about me.
@@ -35,32 +35,34 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <div class="container">
                     <a class="navbar-brand" href="#"><img src="media/icons/android-chrome-192x192.png" height="22px" alt="JP Logo"> Joe Perks - Developer</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarCollapse">
-                            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" aria-current="page" href="#">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="#job-history">Job History</a>
                             </li> 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Other Link</a>
+                                <a class="nav-link" href="#education">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
                             </li>
                         </ul>
                     </div>
-                    
                 </div>
             </nav>
         </header>
-        <section class="py-5 text-center container">
-            <div class="row py-lg-5">
+        <section class="text-center container" id="about">
+            <div class="py-lg-4">
               <div class="col-lg-6 col-md-8 mx-auto">
                 <h1 class="fw-light">About Me</h1>
                 <p class="lead text-muted">
@@ -69,36 +71,67 @@
                     <a href="https://babcockcanada.com/">Babcock Canada</a> from January 2020 - April 2020, as well as a Software Engineering Co-op, again with Babcock, 
                     January 2021 - April 2021.
                 </p>
+                <h3 class="fw-light">Contact:</h3>
+                <p>Phone: <a href="tel:+1-555-555-5555">+1-555-555-5555</a></p>
+                <p>Email: <a href="mailto:joe.perks@fakeemail.com">joe.perks@fakeemail.com</a></p>
                 <p>
-                  <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                  <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                  <a href="#job-history" class="btn btn-primary my-2">Job History</a>
+                  <a href="#education" class="btn btn-primary my-2">Education</a>
+                  <a href="#projects" class="btn btn-primary my-2">Projects</a>
                 </p>
               </div>
             </div>
+            <hr />
         </section>
         <main class="container">
-            <div class="bg-light p-5 rounded">
-                <h1>Hello World!</h1>
-
-                <h2>Site is under construction, and will be ready soon!</h2>
-                <h2>Site is under construction, and will be ready soon!</h2>
-                <h2>Site is under construction, and will be ready soon!</h2>
-                <h2>Site is under construction, and will be ready soon!</h2>
-                <h2>Site is under construction, and will be ready soon!</h2>
-                <h2>Site is under construction, and will be ready soon!</h2>
-                <h2>Site is under construction, and will be ready soon!</h2>
-                <h2>Site is under construction, and will be ready soon!</h2>
-                <h2>Site is under construction, and will be ready soon!</h2>
-                <h2>Site is under construction, and will be ready soon!</h2>
-                <h2>Site is under construction, and will be ready soon!</h2>
-                <h2>Site is under construction, and will be ready soon!</h2>
-                <h2>Site is under construction, and will be ready soon!</h2>
-                <h2>Site is under construction, and will be ready soon!</h2>
-                <h2>Site is under construction, and will be ready soon!</h2>
-                <h2>Site is under construction, and will be ready soon!</h2>
+            <div>
+                <div id="job-history"></div>
+                <br />
+                <br />
+                <h1 class="fw-light">Job History</h1>
+                <div class="bg-light p-4 rounded lead">
+                    <h2 class="fw-light">Software Engineering Co-op - Innovation & Technology</h2>
+                    <p><a href="https://babcockcanada.com/">Babcock Canada</a></p>
+                    <p>January 2021 - April 2021</p>
+                    <p>Site is under construction, and will be ready soon!</p>
+                    <p>Site is under construction, and will be ready soon!</p>
+                    <p>Site is under construction, and will be ready soon!</p>
+                    <p>Site is under construction, and will be ready soon!</p>
+                    <p>Site is under construction, and will be ready soon!</p>
+                </div>
+                <div class="bg-white p-4 rounded lead">
+                    <h2 class="fw-light">Junior Software Developer Co-op - Business Solutions</h2>
+                    <p><a href="https://babcockcanada.com/">Babcock Canada</a></p>
+                    <p>January 2020 - April 2020</p>
+                    <p>Site is under construction, and will be ready soon!</p>
+                    <p>Site is under construction, and will be ready soon!</p>
+                    <p>Site is under construction, and will be ready soon!</p>
+                    <p>Site is under construction, and will be ready soon!</p>
+                    <p>Site is under construction, and will be ready soon!</p>
+                </div>
+                <a class="btn btn-outline-secondary" href="#" role="button"><span class="fas fa-arrow-up"></span> Back to top</a>
             </div>
-            
+            <hr />
+            <div>
+                <div id="education"></div>
+                <br />
+                <br />
+                <h1 class="fw-light">Education</h1>
+                <div class="bg-light p-4 rounded lead">
+                    <h2 class="fw-light">Computer Engineering Technology - Computing Science</h2>
+                    <p><a href="https://www.algonquincollege.com/sat/program/computer-engineering-technology-computing-science/#overview">Algonquin College</a></p>
+                    <p>September 2018 - Present (Graduating December 2021)</p>
+                    <p>Site is under construction, and will be ready soon!</p>
+                    <p>Site is under construction, and will be ready soon!</p>
+                    <p>Site is under construction, and will be ready soon!</p>
+                    <p>Site is under construction, and will be ready soon!</p>
+                    <p>Site is under construction, and will be ready soon!</p>
+                </div>
+                <br />
+                <a class="btn btn-outline-secondary" href="#" role="button"><span class="fas fa-arrow-up"></span> Back to top</a>
+            </div>
         </main>
+
 
         <footer class="text-muted py-5">
             <div class="container">

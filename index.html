@@ -17,25 +17,6 @@
     </head>
     <body style="min-height: 75rem; padding-top: 4.5rem;">
         <header>
-            <!-- <div class="dg-dark collapse" id="navbarHeader">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8 col-md-7 py-4">
-                            <h4 class="text-white">About</h4>
-                            <p class="text-muted">
-                                Test about me. Test about me. Test about me. Test about me. Test about me. Test about me. Test about me. Test about me. Test about me.
-                                Test about me. Test about me. Test about me. Test about me. Test about me. Test about me. Test about me. Test about me. Test about me.
-                            </p>
-                        </div>
-                        <div class="col-sm-4 offset-md-1 py-4">
-                            <h4 class="text-white">Contact</h4>
-                            <ul class="list-unstyled">
-                                <li><a href="mailto:joe.perks@tutanota.com" class="text-white">Email me</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <div class="container">
                     <a class="navbar-brand" href="#"><img src="media/icons/android-chrome-192x192.png" height="22px" alt="JP Logo"> Joe Perks - Developer</a>
@@ -84,8 +65,7 @@
             <hr />
         </section>
         <main class="container">
-            <div>
-                <div id="job-history"></div>
+            <div id="job-history">
                 <br />
                 <br />
                 <h1 class="fw-light">Job History</h1>
@@ -93,27 +73,53 @@
                     <h2 class="fw-light">Software Engineering Co-op - Innovation & Technology</h2>
                     <p><a href="https://babcockcanada.com/">Babcock Canada</a></p>
                     <p>January 2021 - April 2021</p>
-                    <p>Site is under construction, and will be ready soon!</p>
-                    <p>Site is under construction, and will be ready soon!</p>
-                    <p>Site is under construction, and will be ready soon!</p>
-                    <p>Site is under construction, and will be ready soon!</p>
-                    <p>Site is under construction, and will be ready soon!</p>
+                    <p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#job1-collapse" aria-expanded="false" aria-controls="job1-collapse">
+                            Details
+                        </button>
+                    </p>
+                    <div class="collapse" id="job1-collapse">
+                        <div class="card card-body">
+                            <ul>
+                                <li>Full stack web development</li>
+                                <li>Developed a web app using C#/ASP.NET, and a database with Microsoft SQL Server</li>
+                                <li>Used Entity Framework to transfer data between the web app and the database</li>
+                                <li>Used JavaScript and jQuery to manipulate web pages, and process information asynchronously</li>
+                                <li>Attended meetings with business analysts to determine requirements for the web app</li>
+                                <li>Identified and troubleshot problems in the application, and determine ways to fix them</li>
+                                <li>Worked as part of a team to create the web app</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="bg-white p-4 rounded lead">
                     <h2 class="fw-light">Junior Software Developer Co-op - Business Solutions</h2>
                     <p><a href="https://babcockcanada.com/">Babcock Canada</a></p>
                     <p>January 2020 - April 2020</p>
-                    <p>Site is under construction, and will be ready soon!</p>
-                    <p>Site is under construction, and will be ready soon!</p>
-                    <p>Site is under construction, and will be ready soon!</p>
-                    <p>Site is under construction, and will be ready soon!</p>
-                    <p>Site is under construction, and will be ready soon!</p>
+                    <p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#job2-collapse" aria-expanded="false" aria-controls="job2-collapse">
+                            Details
+                        </button>
+                    </p>
+                    <div class="collapse" id="job2-collapse">
+                        <div class="card card-body">
+                            <ul>
+                                <li>Full stack web development</li>
+                                <li>Developed a web app using C#/ASP.NET, and a database with Microsoft SQL Server</li>
+                                <li>Used Entity Framework to transfer data between the web app and the database</li>
+                                <li>Used JavaScript and jQuery to manipulate web pages, and process information asynchronously</li>
+                                <li>Attended meetings with business analysts to determine requirements for the web app</li>
+                                <li>Identified and troubleshot problems in the application, and determine ways to fix them</li>
+                                <li>Worked as part of a team to create the web app</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <a class="btn btn-outline-secondary" href="#" role="button"><span class="fas fa-arrow-up"></span> Back to top</a>
             </div>
             <hr />
-            <div>
-                <div id="education"></div>
+            <div id="education">
+                <div></div>
                 <br />
                 <br />
                 <h1 class="fw-light">Education</h1>
@@ -121,6 +127,32 @@
                     <h2 class="fw-light">Computer Engineering Technology - Computing Science</h2>
                     <p><a href="https://www.algonquincollege.com/sat/program/computer-engineering-technology-computing-science/#overview">Algonquin College</a></p>
                     <p>September 2018 - Present (Graduating December 2021)</p>
+                    <p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#education-collapse" aria-expanded="false" aria-controls="education-collapse">
+                            Details
+                        </button>
+                    </p>
+                    <div class="collapse" id="education-collapse">
+                        <div class="card card-body">
+                            <ul>
+                                <li>Fall 2018 Term Dean’s Honours List</li>
+                                <li>Winter 2019 Term Dean’s Honours List</li>
+                                <li>Fall 2019 Term Dean’s Honours List</li>
+                                <li>Fall 2020 Term Dean’s Honours List</li>
+                                <li>Cumulative GPA of 3.86/4.00</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <a class="btn btn-outline-secondary" href="#" role="button"><span class="fas fa-arrow-up"></span> Back to top</a>
+            </div>
+            <hr />
+            <div id="projects">
+                <br />
+                <br />
+                <h1 class="fw-light">Projects</h1>
+                <div class="bg-light p-4 rounded lead">
                     <p>Site is under construction, and will be ready soon!</p>
                     <p>Site is under construction, and will be ready soon!</p>
                     <p>Site is under construction, and will be ready soon!</p>
@@ -130,6 +162,7 @@
                 <br />
                 <a class="btn btn-outline-secondary" href="#" role="button"><span class="fas fa-arrow-up"></span> Back to top</a>
             </div>
+            <hr />
         </main>
 
 

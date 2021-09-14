@@ -19,7 +19,7 @@ The website can be reached [here](https://joepro25.github.io/).
 1. Show desk details when desk selected
 2. Tooltips to see users occupying desk
 
-Manager
+### Manager
 1. Select area of office
 2. Select multiple desks
 3. Assign individuals to specific desks

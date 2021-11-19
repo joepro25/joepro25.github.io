@@ -179,7 +179,7 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm h-100">
-                                <img src="media/images/Othello/1_Main_Screen.png" class="card-img-top" alt="ResDesk 2">
+                                <img src="media/images/Othello/1_Main_Screen.png" class="card-img-top" alt="Othello First Launch">
                                 <div class="card-body">
                                     <h5 class="card-title">Othello - Java</h5>
                                     <p class="card-text">
@@ -198,10 +198,13 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm h-100">
-                                <img src="media/images/1_Main_Screen.png" class="card-img-top" alt="ResDesk 1">
+                                <img src="media/images/BankSim/1_Bank_Sys_MM.png" class="card-img-top" alt="Bank System Main Menu">
                                 <div class="card-body">
-                                    <h5 class="card-title">Third Project</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h5 class="card-title">Bank Simulator - Java</h5>
+                                    <p class="card-text">
+                                        This is a banking simulator, built in Java, with JavaFX FXML for the UI. This project was for my Level 2 class, 
+                                        Object-Oriented Programming.
+                                    </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#project3-modal">
@@ -579,8 +582,98 @@
                         <h5 class="modal-title" id="project3-modal-Label">Third Project</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
+                    <div id="bank-sim-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#bank-sim-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#bank-sim-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#bank-sim-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#bank-sim-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#bank-sim-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#bank-sim-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#bank-sim-carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="media/images/BankSim/1_Bank_Sys_MM.png" class="d-block w-100" alt="Bank Simulator Main Menu">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/BankSim/2_Add_Chq_Accnt.png" class="d-block w-100" alt="Create Chequing Account">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/BankSim/3_Add_Sav_Accnt.png" class="d-block w-100" alt="Create Savings Account">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/BankSim/4_Deposit.png" class="d-block w-100" alt="Deposit">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/BankSim/5_Withdrawal.png" class="d-block w-100" alt="Withdrawal">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/BankSim/6_Disp_Acc_Info.png" class="d-block w-100" alt="Display Account Info">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/BankSim/7_Print_Accnts.png" class="d-block w-100" alt="Print Accounts">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#bank-sim-carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#bank-sim-carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                     <div class="modal-body">
-                        Information about the project placeholder.
+                        <h5>Overview</h5>
+                        <p>
+                            This application is a banking simulator, written in Java 8, using JavaFX FXML for the GUI. This simulator provides functionality 
+                            for creating accounts (chequing/saving), updating accounts (deposit/withdrawal), displaying accounts by account number, printing 
+                            all accounts to console, and outputting to file, reading account records from file, and running the monthly update for all the 
+                            accounts (charge fees, add interest).
+                        </p>
+                        <h5>Features</h5>
+                        <h6>Add Account</h6>
+                        <ul>
+                            <li>Allows creating either a chequing or savings account</li>
+                            <li>Both account types require basic personal info</li>
+                            <li>Chequing requires a monthly fee</li>
+                            <li>Savings requires a minimum balance and an interest rate</li>
+                        </ul>
+                        
+                        <h6>Update Account</h6>
+                        <ul>
+                            <li>Allows either a deposit or withdrawal to be made to or from an account</li>
+                            <li>A withdrawal will be disallowed if there are not enough funds in the account</li>
+                        </ul>
+                        
+                        <h6>Display Account</h6>
+                        <ul>
+                            <li>Allows user to search for an account by its ID, and will display the account's information</li>
+                        </ul>
+
+                        <h6>Print Accounts</h6>
+                        <ul>
+                            <li>Prints the list of accounts and details to console, and outputs to a file</li>
+                        </ul>
+                        
+                        <h6>Find Account Index</h6>
+                        <ul>
+                            <li>Returns the array index of the searched account number</li>
+                        </ul>
+
+                        <h6>Read Records</h6>
+                        <ul>
+                            <li>Reads account records from a text fields</li>
+                        </ul>
+
+                        <h6>Run Monthly Update</h6>
+                        <ul>
+                            <li>Charges the monthly fees on chequing accounts</li>
+                            <li>Deposits the monthly interest on savings accounts</li>
+                            <li>Does not charge the monthly fee if there are not enough funds in the chequing account</li>
+                            <li>Does not deposit interest if the minimum balance is not met on a savings account</li>
+                        </ul>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="fas fa-times"></span> Close</button>

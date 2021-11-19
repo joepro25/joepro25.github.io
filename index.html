@@ -179,10 +179,12 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm h-100">
-                                <img src="media/images/Othello/client_1.png" class="card-img-top" alt="ResDesk 2">
+                                <img src="media/images/Othello/1_Main_Screen.png" class="card-img-top" alt="ResDesk 2">
                                 <div class="card-body">
                                     <h5 class="card-title">Othello - Java</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">
+                                        An Othello game built in Java 8, using JavaFX for the GUI. This project was for my Level 4 class, Java App Development.
+                                    </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#project2-modal">
@@ -444,8 +446,123 @@
                         <h5 class="modal-title" id="project2-modal-Label">Othello - Java</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
+                    <div id="othello-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#othello-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#othello-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#othello-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#othello-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#othello-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#othello-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#othello-carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                            <button type="button" data-bs-target="#othello-carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                            <button type="button" data-bs-target="#othello-carousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                            <button type="button" data-bs-target="#othello-carousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                            <button type="button" data-bs-target="#othello-carousel" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                            <button type="button" data-bs-target="#othello-carousel" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="media/images/Othello/1_Main_Screen.png" class="d-block w-100" alt="Main Screen">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/Othello/2_Some_Turns_Taken.png" class="d-block w-100" alt="Pieces Played">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/Othello/3_Valid_Moves.png" class="d-block w-100" alt="Valid Moves Check">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/Othello/4_Change_Pieces.png" class="d-block w-100" alt="Change Pieces Dialogue">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/Othello/5_Dogs_v_Cats.png" class="d-block w-100" alt="Cats vs. Dogs">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/Othello/6_Corner_Debug_Scenario.png" class="d-block w-100" alt="Debug Scenario">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/Othello/7_Game_End_Test.png" class="d-block w-100" alt="Game End Test">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/Othello/8_Server_Connection.png" class="d-block w-100" alt="Chat Server Connection">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/Othello/client_1.png" class="d-block w-100" alt="Chat Client 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/Othello/client_2.png" class="d-block w-100" alt="Chat Client 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/Othello/Server_Running.png" class="d-block w-100" alt="Server Startup">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/Othello/server.png" class="d-block w-100" alt="Server Running">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#othello-carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#othello-carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                     <div class="modal-body">
-                        Information about the project placeholder.
+                        <h5>Overview</h5>
+                        <p>
+                            Othello (type of Reversi) is a board game, played on the same board type as chess/checkers. The game starts with two pieces for each 
+                            player, in the centre four squares, diagonal from each other. The players take turns "capturing" the other player's pieces, by 
+                            surrounding one or more of the other player's pieces. The captured pieces switch to the current player's colours. When there are no 
+                            available moves left, the game is over. Whichever player has the move pieces, wins. Full rules can be found  
+                            <a href="https://en.wikipedia.org/wiki/Reversi" class="link-primary text-decoration-none" target="_blank">here <span class="fas fa-external-link-alt"></span></a>.
+                        </p>
+                        <p>
+                            This game was created for my Level 4 class at Algonquin, Java App Programming. It was written in Java, using JavaFX to build the GUI.
+                            The game also has a simple socket server, for chatting between two or more clients. The server however does not support online play, 
+                            only local (hot seat) play is supported.
+                        </p>
+
+                        <h5>Othello Features</h5>
+                        <h6>Main Game</h6>
+                        <ul>
+                            <li>
+                                Supports creating a new game at any time, resets the board, and resets all scores
+                            </li>
+                            <li>
+                                Gives feedback after every turn, to let players know whose turn it is, and how many pieces were captured
+                            </li>
+                            <li>
+                                Displays the score in the bottom right, and highlights the player whose turn it is
+                            </li>
+                            <li>
+                                Valid moves button, which will display check marks where there are valid moves for the player
+                            </li>
+                            <li>
+                                Game pieces can be changed. Styles include:
+                                <ul>
+                                    <li>Regular pieces (black and white chips)</li>
+                                    <li>Dogs vs. Cats</li>
+                                    <li>Bats vs Pumpkins</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <h6>Chat Client</h6>
+                        <ul>
+                            <li>Allows multiple clients to join into a chat room</li>
+                            <li>Send messages to and see messages from all clients in the room</li>
+                            <li>Enforces unique names on the server</li>
+                            <li>
+                                Slash commands:
+                                <ul>
+                                    <li><b>/help:</b> Show all of the slash commands</li>
+                                    <li><b>/bye:</b> Disconnect from server</li>
+                                    <li><b>/name (name):</b> Rename yourself</li>
+                                    <li><b>/emote (text):</b> Send an emote</li>
+                                    <li><b>/pvt (user name) (message):</b> Send a private message to the specified user</li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="fas fa-times"></span> Close</button>
